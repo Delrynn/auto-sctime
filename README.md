@@ -1,4 +1,4 @@
-# Inline SCTime
+# Auto SCTime
 
 This plugin is designed to detect and automatically inject estimated supercruise travel times. Whenever a distance
 such as "30 kls" or "30000ls" is printed in chat, this plugin will estimate the supercruise travel time calculated
