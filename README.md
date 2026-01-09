@@ -5,7 +5,11 @@ such as "30 kls" or "30000ls" is printed in chat, this plugin will estimate the 
 with the same equations that Mecha/SwiftSqueak uses. It is designed with dispatchers in mind, though all are welcome
 to use it.
 
-![Inline-sctime example](/Images/example3.png)
+Inline SCTime currently shows 4 supercruise times respectively: normal, gravwell, Mandalay, Caspian
+The Mandalay and Caspian times will change colors (ie. to red) if the distance goes beyond their stock tank range at
+full SCO speeds.
+
+![Inline-sctime example](/Images/example4.png)
 
 # Installation:
 
@@ -42,7 +46,7 @@ Download [HexChat/inline_sctime.py](HexChat/inline_sctime.py) and save the file 
 - Injects estimated supercruise travel time next to detected distances
 - AdiIRC only, will calculate both regular and gravwell times side-by-side
 - AdiIRC only, will calculate SCO travel time (based on Mandalay)
-  - SCO Estimate will turn red after Mandalay default tank would be used up
+  - SCO Estimate will turn red after Mandalay/Caspian default tank would be used up
 - Toggle the plugin with the command "/togglesctime" (case insensitive)
 - /sctime alias for silent one-off calculation
 - All messages, or just case callouts
