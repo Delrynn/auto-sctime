@@ -9,6 +9,8 @@ Inline SCTime currently shows 4 supercruise times respectively: normal, gravwell
 The Mandalay and Caspian times will change colors (ie. to red) if the distance goes beyond their stock tank range at
 full SCO speeds.
 
+![Inline-sctime example](/Images/example5.png)
+
 ![Inline-sctime example](/Images/example6.png)
 
 # Installation:
