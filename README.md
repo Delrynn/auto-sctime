@@ -6,8 +6,9 @@ with the same equations that Mecha/SwiftSqueak uses. It is designed with dispatc
 to use it.
 
 Inline SCTime currently shows 4 supercruise times respectively: normal, gravwell, Mandalay, Caspian
+
 The Mandalay and Caspian times will change colors (ie. to red) if the distance goes beyond their stock tank range at
-full SCO speeds.
+full SCO speeds. The formatting can either be in-line or on the next line, alligned with the sender's message.
 
 ![Inline-sctime example](/Images/example5.png)
 
